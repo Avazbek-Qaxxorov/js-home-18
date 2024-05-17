@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        color: #fff;
+        gap: 40px;
+    }
+    .button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    button {
+        border: none;
+        background-color: dodgerblue;
+        color: #fff;
+        border-radius: 15px;
+        padding: 15px 30px;
+    }
+    #res {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        gap: 30px;
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 100%;
+        height: 70px;
+        max-width: 400px;
+        padding: 0 30px;
+        color: #000;
+    }
+</style>
+<body>
+    <div class="button">
+        <button id="add-btn">ADDMENU</button>
+        <button id="search-btn">SEARCH</button>
+        <button id="sort-btn">SORT</button>
+        <button id="show-btn">SHOW</button>
+    </div>
+
+    <div id="res"></div>
+    <script src="./script/app.js"></script>
+</body>
+</html>
